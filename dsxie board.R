@@ -15,26 +15,26 @@ po <- read.csv("Z:/IMPORT_JDE_OPENPO.csv",
                header = FALSE)
 
 
-base::dir.create("C:/Users/slee/OneDrive - Ventura Foods/Ventura Work/SCE/Project/FY 23/DSXIE/2024/03.05")
+base::dir.create("C:/Users/slee/OneDrive - Ventura Foods/Ventura Work/SCE/Project/FY 23/DSXIE/2024/03.12")
 
-write.csv(custord, "C:/Users/slee/OneDrive - Ventura Foods/Ventura Work/SCE/Project/FY 23/DSXIE/2024/03.05/open_cust_ord.csv")
-write.csv(wo, "C:/Users/slee/OneDrive - Ventura Foods/Ventura Work/SCE/Project/FY 23/DSXIE/2024/03.05/wo.csv")
-write.csv(receipt, "C:/Users/slee/OneDrive - Ventura Foods/Ventura Work/SCE/Project/FY 23/DSXIE/2024/03.05/receipt.csv")
-write.csv(po, "C:/Users/slee/OneDrive - Ventura Foods/Ventura Work/SCE/Project/FY 23/DSXIE/2024/03.05/po.csv")
-
-
-base::dir.create("S:/Supply Chain Projects/Data Source (SCE)/DSXIE/2024/03.05")
+write.csv(custord, "C:/Users/slee/OneDrive - Ventura Foods/Ventura Work/SCE/Project/FY 23/DSXIE/2024/03.12/open_cust_ord.csv")
+write.csv(wo, "C:/Users/slee/OneDrive - Ventura Foods/Ventura Work/SCE/Project/FY 23/DSXIE/2024/03.12/wo.csv")
+write.csv(receipt, "C:/Users/slee/OneDrive - Ventura Foods/Ventura Work/SCE/Project/FY 23/DSXIE/2024/03.12/receipt.csv")
+write.csv(po, "C:/Users/slee/OneDrive - Ventura Foods/Ventura Work/SCE/Project/FY 23/DSXIE/2024/03.12/po.csv")
 
 
+base::dir.create("S:/Supply Chain Projects/Data Source (SCE)/DSXIE/2024/03.12")
 
-file.copy("C:/Users/slee/OneDrive - Ventura Foods/Ventura Work/SCE/Project/FY 23/DSXIE/2024/03.05/open_cust_ord.csv", 
-"S:/Supply Chain Projects/Data Source (SCE)/DSXIE/2024/03.05/open_cust_ord.csv")
 
-file.copy("C:/Users/slee/OneDrive - Ventura Foods/Ventura Work/SCE/Project/FY 23/DSXIE/2024/03.05/wo.csv", 
-"S:/Supply Chain Projects/Data Source (SCE)/DSXIE/2024/03.05/wo.csv")
 
-file.copy("C:/Users/slee/OneDrive - Ventura Foods/Ventura Work/SCE/Project/FY 23/DSXIE/2024/03.05/receipt.csv", 
-"S:/Supply Chain Projects/Data Source (SCE)/DSXIE/2024/03.05/receipt.csv")
+file.copy("C:/Users/slee/OneDrive - Ventura Foods/Ventura Work/SCE/Project/FY 23/DSXIE/2024/03.12/open_cust_ord.csv", 
+"S:/Supply Chain Projects/Data Source (SCE)/DSXIE/2024/03.12/open_cust_ord.csv")
 
-file.copy("C:/Users/slee/OneDrive - Ventura Foods/Ventura Work/SCE/Project/FY 23/DSXIE/2024/03.05/po.csv", 
-"S:/Supply Chain Projects/Data Source (SCE)/DSXIE/2024/03.05/po.csv")
+file.copy("C:/Users/slee/OneDrive - Ventura Foods/Ventura Work/SCE/Project/FY 23/DSXIE/2024/03.12/wo.csv", 
+"S:/Supply Chain Projects/Data Source (SCE)/DSXIE/2024/03.12/wo.csv")
+
+file.copy("C:/Users/slee/OneDrive - Ventura Foods/Ventura Work/SCE/Project/FY 23/DSXIE/2024/03.12/receipt.csv", 
+"S:/Supply Chain Projects/Data Source (SCE)/DSXIE/2024/03.12/receipt.csv")
+
+file.copy("C:/Users/slee/OneDrive - Ventura Foods/Ventura Work/SCE/Project/FY 23/DSXIE/2024/03.12/po.csv", 
+"S:/Supply Chain Projects/Data Source (SCE)/DSXIE/2024/03.12/po.csv")
